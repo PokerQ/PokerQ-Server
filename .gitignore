@@ -71,3 +71,5 @@ Thumbs.db
 *.dll
 *.exe
 
+PokerQ-server.build
+PokerQ-server.xcodeproj
