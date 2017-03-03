@@ -1,4 +1,5 @@
 #include "player.h"
+#include "card.h"
 
 Player::Player(int _user_id, int _position)
 {

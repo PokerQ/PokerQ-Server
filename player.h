@@ -1,9 +1,10 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "card.h"
 #include <QObject>
 #include <QPair>
+
+class Card;
 
 class Player
 {
