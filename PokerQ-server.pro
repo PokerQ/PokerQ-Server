@@ -13,7 +13,9 @@ TEMPLATE = app
 SOURCES += main.cpp \
     server.cpp \
     thread.cpp \
-    room.cpp
+    room.cpp \
+    card.cpp \
+    user.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -29,4 +31,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 HEADERS += \
     server.h \
     thread.h \
-    room.h
+    room.h \
+    card.h \
+    user.h
