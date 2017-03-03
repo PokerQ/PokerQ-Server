@@ -34,7 +34,7 @@ public slots:
 
 signals:
     void fold();
-    void bet(int value);
+    void sendBet(int);
 
 
 };

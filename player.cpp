@@ -12,6 +12,7 @@ void Player::init(int _user_id, int _position)
     user_id = _user_id;
     position = _position;
     stack = 500;
+    bet = 0;
 }
 
 void Player::handle()
@@ -41,7 +42,7 @@ void Player::setStack(int value)
 
 int Player::getBet() const
 {
-    return Bet;
+    return bet;
 }
 
 void Player::setBet(int value)
@@ -50,7 +51,7 @@ void Player::setBet(int value)
     if (bet == 0) {
         emit fold();
     } else {
-        emit(bet(value));
+        emit(sendBet(value));
     }
 }
 
