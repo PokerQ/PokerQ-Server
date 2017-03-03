@@ -2,14 +2,15 @@
 #define PLAYER_H
 
 #include <QObject>
-#include <QPair>
 
 class Card;
+class Room;
 
-class Player
+class Player : public QObject
 {
+    Q_OBJECT
 public:
-    Player(int, int);
+    Player(int _user_id, int _position, Room * _room);
     ~Player();
     int getID() const;
     int getUser_id() const;
@@ -22,19 +23,19 @@ public:
 private:
     int ID;
     int user_id;
-    QPair<Card, Card> hand;
+    QPair<Card*, Card*> hand;
     int stack;
     int bet;
     int position;
-    void init(int, int);
+    void init(int _user_id, int _position, Room *  _room);
     void handle();
 
 public slots:
-    void receiveHand(QPair<Card, Card>);
+    void receiveHand(QPair<Card*, Card*>);
 
 signals:
-    void fold();
-    void sendBet(int);
+    void sendFold(Player * player);
+    void sendBet(Player * player, int value);
 
 
 };

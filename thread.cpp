@@ -3,6 +3,8 @@
 #include <QDebug>
 #include <QThread>
 #include <QTcpSocket>
+#include <QJsonDocument>
+#include <QJsonObject>
 
 Thread::Thread(qintptr ID, QObject *parent) : QThread(parent)
 {
@@ -36,9 +38,13 @@ void Thread::run()
 
 void Thread::readyRead()
 {
-    QByteArray Data = socket->readAll();
-    qDebug() << socketDescriptor << " Data in: " << Data;
-
+    QString data = QString(socket->readAll());
+    QJsonDocument qJsonDocument = QJsonDocument::fromJson(data.toUtf8());
+    
+    QJsonObject qJsonObject = qJsonDocument.object();
+    
+    qDebug() << qJsonObject.value("method").toString();
+    
 }
 
 void Thread::disconnected()

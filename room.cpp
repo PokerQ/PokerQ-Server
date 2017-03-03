@@ -1,5 +1,5 @@
 #include "room.h"
-//#include "player.h"
+#include "player.h"
 #include "card.h"
 #include "user.h"
 
@@ -60,13 +60,22 @@ int Room::getPot() const
     return pot;
 }
 
-/*Player Room::getDealer() const
+Player * Room::getDealer() const
 {
     return dealer;
 }
 
-QList<Player> Room::getPlayersList() const
+QList<Player *> Room::getPlayersList() const
 {
     return playersList;
-}*/
+}
 
+void Room::onFold(Player * player)
+{
+    
+}
+
+void Room::onBet(Player * player, int bet)
+{
+    
+}

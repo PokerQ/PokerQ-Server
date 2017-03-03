@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/Matth/Documents/Workspace/Qt/PokerQ-server/ -f PokerQ-server.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		C7B1BBCFE8001B2B13534F59 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FF876F579B3796FB6B1ECD3C = {
+			fileRef = "C7B1BBCFE8001B2B13534F59";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		51654F59DDA3A31AA15936ED = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/server.cpp";
+			name = "server.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D0F34B5867C2FFCCE1B09D1C = {
+			fileRef = "51654F59DDA3A31AA15936ED";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A53C6E19C973CB9FE76379A2 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/thread.cpp";
+			name = "thread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		79A0B2A20F88CF7485218275 = {
+			fileRef = "A53C6E19C973CB9FE76379A2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6DE606F29C0CDAB08A62C379 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/player.cpp";
+			name = "player.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4708ACF1F33292D535CA03DA = {
+			fileRef = "6DE606F29C0CDAB08A62C379";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B0325789E7E127A1AE6EF2DF = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/room.cpp";
+			name = "room.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		69C8DE9DF0EACD3CAB0DF124 = {
+			fileRef = "B0325789E7E127A1AE6EF2DF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		94960737757FE31B6339BDD2 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/card.cpp";
+			name = "card.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9211E83C3E5A358EA48D0638 = {
+			fileRef = "94960737757FE31B6339BDD2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BE9106596F4680BE30116E4A = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/user.cpp";
+			name = "user.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C0DBE5F09FD6B975D4D5F8DD = {
+			fileRef = "BE9106596F4680BE30116E4A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CFAFEA0C2DABBD131040EAD6 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/moc_server.cpp";
+			name = "moc_server.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		39C32656E5C81FDB507B242A = {
+			fileRef = "CFAFEA0C2DABBD131040EAD6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1205DAC7FC1FE115EBE6D983 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/moc_thread.cpp";
+			name = "moc_thread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F682B0C24A56C2FD3D5F86AC = {
+			fileRef = "1205DAC7FC1FE115EBE6D983";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F98731A7E7027F87DD1437B6 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/moc_player.cpp";
+			name = "moc_player.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A8BAB94982531FD49FAFBC97 = {
+			fileRef = "F98731A7E7027F87DD1437B6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EC4B6D54C8BBCFAD429C595A = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/moc_room.cpp";
+			name = "moc_room.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2EC9B81F78E3BDF1FE2AD040 = {
+			fileRef = "EC4B6D54C8BBCFAD429C595A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B29DD1EA8E320A0722887AEA = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/moc_card.cpp";
+			name = "moc_card.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B091CB69042EA4F75B3F34F2 = {
+			fileRef = "B29DD1EA8E320A0722887AEA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5EA85E361487F104B85BD33E = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/moc_user.cpp";
+			name = "moc_user.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1B3A84B888207008F872437D = {
+			fileRef = "5EA85E361487F104B85BD33E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FCE49BCB7F75542A7D001673 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/server.h";
+			name = "server.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E7EABCC594151FC37CE2973E = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/thread.h";
+			name = "thread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		33998A50CFA5D987808B45FD = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/player.h";
+			name = "player.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EE0A259B9D06F398286DE32B = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/room.h";
+			name = "room.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2F36633015B6E7D9D8983F83 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/card.h";
+			name = "card.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EDCC879B8B103AECC72DFB88 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/user.h";
+			name = "user.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		60FAE0393B9FB0ECB444B3D5 = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/PokerQ-server.pro";
+			name = "PokerQ-server.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		D6E8335CBE16EAE77FEDAABE = {
+			isa = PBXFileReference;
+			path = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"CFAFEA0C2DABBD131040EAD6",
+				"1205DAC7FC1FE115EBE6D983",
+				"F98731A7E7027F87DD1437B6",
+				"EC4B6D54C8BBCFAD429C595A",
+				"B29DD1EA8E320A0722887AEA",
+				"5EA85E361487F104B85BD33E");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"C7B1BBCFE8001B2B13534F59",
+				"51654F59DDA3A31AA15936ED",
+				"A53C6E19C973CB9FE76379A2",
+				"6DE606F29C0CDAB08A62C379",
+				"B0325789E7E127A1AE6EF2DF",
+				"94960737757FE31B6339BDD2",
+				"BE9106596F4680BE30116E4A",
+				"FCE49BCB7F75542A7D001673",
+				"E7EABCC594151FC37CE2973E",
+				"33998A50CFA5D987808B45FD",
+				"EE0A259B9D06F398286DE32B",
+				"2F36633015B6E7D9D8983F83",
+				"EDCC879B8B103AECC72DFB88");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"60FAE0393B9FB0ECB444B3D5",
+				"D6E8335CBE16EAE77FEDAABE");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/Matth/Documents/Workspace/Qt/PokerQ-server/ -f PokerQ-server.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"FF876F579B3796FB6B1ECD3C",
+				"D0F34B5867C2FFCCE1B09D1C",
+				"79A0B2A20F88CF7485218275",
+				"4708ACF1F33292D535CA03DA",
+				"69C8DE9DF0EACD3CAB0DF124",
+				"9211E83C3E5A358EA48D0638",
+				"C0DBE5F09FD6B975D4D5F8DD",
+				"39C32656E5C81FDB507B242A",
+				"F682B0C24A56C2FD3D5F86AC",
+				"A8BAB94982531FD49FAFBC97",
+				"2EC9B81F78E3BDF1FE2AD040",
+				"B091CB69042EA4F75B3F34F2",
+				"1B3A84B888207008F872437D");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		03836C78D038E9685B111D2A = {
+			isa = PBXFileReference;
+			name = "QtNetwork.framework";
+			path = "/Users/Matth/Qt/5.7/clang_64/lib/QtNetwork.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		85A7FD1EF96DE775F45B4783 = {
+			fileRef = "03836C78D038E9685B111D2A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		970FEBC5D613786F0DC3B778 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/Users/Matth/Qt/5.7/clang_64/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		BC982FAE72107631F316F08D = {
+			fileRef = "970FEBC5D613786F0DC3B778";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B774D8E4178765CE52EAAF5 = {
+			isa = PBXFileReference;
+			name = "DiskArbitration.framework";
+			path = "/System/Library/Frameworks/DiskArbitration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		A99B2AA0F9CBBDD12BA126A4 = {
+			fileRef = "2B774D8E4178765CE52EAAF5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"03836C78D038E9685B111D2A",
+				"970FEBC5D613786F0DC3B778",
+				"2B774D8E4178765CE52EAAF5",
+				"A1A67BEAA744704B29168D39");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"85A7FD1EF96DE775F45B4783",
+				"BC982FAE72107631F316F08D",
+				"A99B2AA0F9CBBDD12BA126A4",
+				"8D267F2E4776F0ECA2F49DC8");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		0C0D0D400BEDB153DA44D110 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "compiled.mach-o.executable";
+			path = "PokerQ-server";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"0C0D0D400BEDB153DA44D110");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "PokerQ-server";
+			sourceTree = "<group>";
+		};
+		76DF42A5A7F52DE302C286C2 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		BDB9B234E685C2B474A12D8A = {
+			isa = PBXTargetDependency;
+			target = "76DF42A5A7F52DE302C286C2";
+		};
+		5C0683F825564E26B578D033 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A");
+			dependencies = (
+				"BDB9B234E685C2B474A12D8A");
+			productReference = "0C0D0D400BEDB153DA44D110";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.tool";
+			name = "PokerQ-server";
+			productName = "PokerQ-server";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "PKY5BBRL4N";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "PokerQ-server";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				SYMROOT = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.8";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"../../../../Qt/5.7/clang_64/lib/QtNetwork.framework/Headers",
+					"../../../../Qt/5.7/clang_64/lib/QtCore.framework/Headers",
+					".",
+					"../../../../Qt/5.7/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Matth/Qt/5.7/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Matth/Qt/5.7/clang_64/lib",
+					"/Users/Matth/Qt/5.7/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-Wl,-rpath,/Users/Matth/Qt/5.7/clang_64/lib",
+						"-F/Users/Matth/Qt/5.7/clang_64/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "PKY5BBRL4N";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "PokerQ-server";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "PokerQ-server";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				DEVELOPMENT_TEAM = "PKY5BBRL4N";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "PokerQ-server";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				SYMROOT = "/Users/Matth/Documents/Workspace/Qt/PokerQ-server/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.8";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"../../../../Qt/5.7/clang_64/lib/QtNetwork.framework/Headers",
+					"../../../../Qt/5.7/clang_64/lib/QtCore.framework/Headers",
+					".",
+					"../../../../Qt/5.7/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Matth/Qt/5.7/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Matth/Qt/5.7/clang_64/lib",
+					"/Users/Matth/Qt/5.7/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-Wl,-rpath,/Users/Matth/Qt/5.7/clang_64/lib",
+						"-F/Users/Matth/Qt/5.7/clang_64/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				DEVELOPMENT_TEAM = "PKY5BBRL4N";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "PokerQ-server";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "PokerQ-server";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"5C0683F825564E26B578D033",
+				"76DF42A5A7F52DE302C286C2");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

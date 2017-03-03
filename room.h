@@ -15,26 +15,27 @@ public:
     Room();
     bool getStatus() const;
     int getPot() const;
-    //Player getDealer() const;
-    //QList<Player> getPlayersList() const;
+    Player * getDealer() const;
+    QList<Player *> getPlayersList() const;
 
 signals:
-    //void sendPlayerCard();
+    //void sendPlayerCards();
     //void sendFlop();
     //void sendTurn();
     //void sendRiver();
     //void sendPot();
 
-protected slots:
-    //void onConnectPlayer(User &user);
-    //void onBet(User &user, int bet);
+public slots:
+    //void onConnectPlayer(User * user);
+    void onBet(Player * player, int bet);
+    void onFold(Player * player);
 
 private:
     int ID;
-    //QList<Player> playersList;
+    QList<Player *> playersList;
     QList<Card *> board;
     int pot;
-    //Player dealer;
+    Player * dealer;
     bool status;
     QList<Card *> cards;
 
