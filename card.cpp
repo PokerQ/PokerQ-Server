@@ -1,6 +1,7 @@
 #include "card.h"
 
-Card::Card(Number number, Color color)
+
+Card::Card(int number, int color)
 {
 
     this->number = number;

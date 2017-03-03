@@ -5,7 +5,7 @@
 
 class QString;
 
-class User
+class User : public QObject
 {
     Q_OBJECT
 public:
@@ -21,6 +21,8 @@ public:
 private:
     int id;
     QString username;
+
+
 
 };
 

@@ -38,7 +38,7 @@ void Thread::readyRead()
 {
     QByteArray Data = socket->readAll();
     qDebug() << socketDescriptor << " Data in: " << Data;
-    socket->write(Data + " from server");
+
 }
 
 void Thread::disconnected()

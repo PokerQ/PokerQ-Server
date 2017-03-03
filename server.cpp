@@ -18,7 +18,7 @@ Server::~Server()
 
 void Server::startServer()
 {
-    int port = 31337;
+    int port = 1338;
 
     if(!this->listen(QHostAddress::Any, port))
     {

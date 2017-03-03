@@ -1,6 +1,9 @@
 #include "room.h"
-#include "player.h"
+//#include "player.h"
 #include "card.h"
+#include "user.h"
+
+#include <QList>
 
 Room::Room()
 {
@@ -36,12 +39,12 @@ void Room::init()
     for(int i=AS; i != King; ++i)
     {
         for(int j=Pike; j != Tile; ++j) {
-            cards[i+j] = new Card(static_cast<Number>(i), static_cast<Color>(j));
+            cards.append(new Card(i, j));
         }
     }
 }
 
-void Room::init()
+void Room::handle()
 {
     //connect(this, &Player::bet, this, &Room::onBet);
     //connect(this, )
@@ -57,7 +60,7 @@ int Room::getPot() const
     return pot;
 }
 
-Player Room::getDealer() const
+/*Player Room::getDealer() const
 {
     return dealer;
 }
@@ -65,5 +68,5 @@ Player Room::getDealer() const
 QList<Player> Room::getPlayersList() const
 {
     return playersList;
-}
+}*/
 

@@ -1,12 +1,16 @@
 #ifndef CARD_H
 #define CARD_H
 
-class Card
+#include <QObject>
+
+class Card : public QObject
 {
+    Q_OBJECT
 
 public:
-    Card(Number number, Color color);
+    Card(int number, int color);
     ~Card();
+
 
 public:
 
@@ -15,10 +19,10 @@ public:
 
 private:
     bool isDistributed;
-    Number number;
-    Color color;
+    int number;
+    int color;
 
-    enum Number {
+    enum class Number {
         AS,
         Two,
         Three,
@@ -33,12 +37,13 @@ private:
         King
     };
 
-    enum Color {
+    enum class Color {
         Pike,
         Clover,
         Heart,
         Tile
     };
+
 };
 
 #endif // CARD_H
