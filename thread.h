@@ -4,11 +4,14 @@
 #include <QThread>
 #include <QTcpSocket>
 
+class QThread;
+
 class Thread : public QThread
 {
     Q_OBJECT
 public:
     explicit Thread(qintptr ID, QObject *parent = 0);
+    ~Thread();
     void run();
 
 signals:
@@ -19,7 +22,7 @@ public slots:
     void disconnected();
 
 private:
-    QTcpSocket *socket;
+    QTcpSocket * socket;
     qintptr socketDescriptor;
 };
 

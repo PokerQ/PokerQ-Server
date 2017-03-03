@@ -1,9 +1,17 @@
 #include "thread.h"
+
 #include <QDebug>
+#include <QThread>
+#include <QTcpSocket>
 
 Thread::Thread(qintptr ID, QObject *parent) : QThread(parent)
 {
     this->socketDescriptor = ID;
+}
+
+Thread::~Thread()
+{
+    delete socket;
 }
 
 void Thread::run()
@@ -18,8 +26,8 @@ void Thread::run()
         return;
     }
 
-    connect(socket, SIGNAL(readyRead()), this, SLOT(readyRead()), Qt::DirectConnection);
-    connect(socket, SIGNAL(disconnected()), this, SLOT(disconnected()));
+    connect(socket, &QTcpSocket::readyRead, this, &Thread::readyRead, Qt::DirectConnection);
+    connect(socket, &QTcpSocket::disconnected, this, &Thread::disconnected);
 
     qDebug() << socketDescriptor << " Client connected";
 
@@ -29,16 +37,12 @@ void Thread::run()
 void Thread::readyRead()
 {
     QByteArray Data = socket->readAll();
-
     qDebug() << socketDescriptor << " Data in: " << Data;
-
-    socket->write(Data);
+    socket->write(Data + " from server");
 }
 
 void Thread::disconnected()
 {
     qDebug() << socketDescriptor << " Disconnected";
-
     socket->deleteLater();
-    exit(0);
 }
