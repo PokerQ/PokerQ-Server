@@ -14,6 +14,7 @@ SOURCES += main.cpp \
     server.cpp \
     thread.cpp \
     player.cpp \
+    room.cpp \
     card.cpp \
     user.cpp
 
@@ -32,5 +33,6 @@ HEADERS += \
     server.h \
     thread.h \
     player.h \
+    room.h \
     card.h \
     user.h

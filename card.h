@@ -5,7 +5,7 @@ class Card
 {
 
 public:
-    Card(Number number, Color color);
+    Card(int number, int color);
     ~Card();
 
 public:
@@ -15,8 +15,8 @@ public:
 
 private:
     bool isDistributed;
-    Number number;
-    Color color;
+    int number;
+    int color;
 
     enum Number {
         AS,

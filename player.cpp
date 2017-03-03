@@ -4,7 +4,6 @@
 Player::Player(int _user_id, int _position)
 {
     init(_user_id, _position);
-    handle();
 }
 
 void Player::init(int _user_id, int _position)
@@ -12,12 +11,6 @@ void Player::init(int _user_id, int _position)
     user_id = _user_id;
     position = _position;
     stack = 500;
-    bet = 0;
-}
-
-void Player::handle()
-{
-
 }
 
 int Player::getID() const
